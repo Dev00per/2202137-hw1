@@ -1,5 +1,3 @@
-
-
 import tkinter as tk
 from tkinter import filedialog, ttk
 from PIL import Image, ImageTk, ImageEnhance, ImageFilter
@@ -135,7 +133,7 @@ class ImageProcessorApp:
     def display_image(self):
         # Resize image to fit display (max size 800x600)
         display_size = (800, 600)
-        self.processed_image.thumbnail(display_size, Image.Resampling.LANCZOS)
+        self.processed_image.thumbnail(display_size, Image.LANCZOS)
         
         # Convert to PhotoImage
         self.current_image = ImageTk.PhotoImage(self.processed_image)
