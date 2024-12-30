@@ -43,4 +43,6 @@ Required Python libraries:
 tkinter
 Pillow (Python Imaging Library Fork)
 Project Structure
+Author
 
+Thien Loc
