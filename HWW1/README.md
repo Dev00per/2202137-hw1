@@ -10,7 +10,7 @@ Load Images: Open and display images in various formats, including JPG, PNG, BMP
 
 Save Images: Save processed images to the local system in PNG or JPG format.
 
-Adjustments:
+Adjustments:SS
 
 Brightness
 
@@ -35,10 +35,10 @@ Responsive GUI: Easy-to-use interface built with Tkinter and styled using ttk wi
 Requirements:
 
 image-processor/
-
+data/HWW1/
 ├── hw1-tloc.py   # Main application code
 ├── README.md            # Project documentation
-└── requirements.txt     # Dependencies
+
 Required Python libraries:
 tkinter
 Pillow (Python Imaging Library Fork)
@@ -46,3 +46,4 @@ Project Structure
 Author
 
 Thien Loc
+
