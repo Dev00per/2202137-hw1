@@ -10,25 +10,7 @@ Load Images: Open and display images in various formats, including JPG, PNG, BMP
 
 Save Images: Save processed images to the local system in PNG or JPG format.
 
-Adjustments:SS
 
-Brightness
-
-Contrast
-
-Sharpness
-
-Filters:
-
-Blur
-
-Emboss
-
-Contour
-
-Edge Enhance
-
-Reset: Revert the image to its original state.
 
 Responsive GUI: Easy-to-use interface built with Tkinter and styled using ttk widgets.
 
@@ -36,7 +18,10 @@ Requirements:
 
 image-processor/
 data/HWW1/
-├── hw1-tloc.py   # Main application code
+├── hw1-tloc.py
+├──test.png
+├──downloads.jpeg
+# Main application code
 ├── README.md            # Project documentation
 
 Required Python libraries:
